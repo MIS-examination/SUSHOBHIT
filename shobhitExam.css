@@ -1,0 +1,91 @@
+body {
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  border-color: brown;
+  background-color:  #f5cc96;
+}
+.logo {
+  display: flex;
+}
+.examination {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+h2 {
+  font-size: 20px;
+  color: #9c6027;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+a {
+  text-decoration: none;
+}
+.home {
+    font-weight: bold;
+    width: 95vw;
+    height: 50px;
+    font-size: 17px;
+    padding: 12px;
+    margin: 0px;
+    background-color: #9c6027;
+}
+#pos{
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    margin: 0px;
+    padding: 10PX;
+}
+#pos:hover{
+  color:rgb(248, 158, 55);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.box {
+  margin: 10px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #fdc57c;
+}
+#img {
+  width: 90px;
+  height: 120px;
+  position: relative;
+  left: 70px;
+}
+.date {
+  font-size: 12px;
+  position: relative;
+  right: 5px;
+}
+#time {
+  font-weight: bold;
+}
+.container #ins{
+    position: relative;
+    left: 40%;
+    top: 15px;
+    justify-content: center;
+}
+.container #reg{
+    position: relative;
+    left: 40%;
+    top: 15px;
+    justify-content: center;
+}
+.container .box #line{
+    position: relative;
+    top: 10px;
+}
+
